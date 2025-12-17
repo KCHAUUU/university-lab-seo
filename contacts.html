@@ -3,24 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой учебный сайт | Контакты</title>
+    <title>Контакты | Свяжитесь со мной для обсуждения проектов</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Контакты</h1>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="site-title">Контакты</h1>
+                <p class="site-subtitle">Свяжитесь со мной</p>
+            </div>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="about.html" class="nav-link">Обо мне</a>
+                <a href="portfolio.html" class="nav-link">Портфолио</a>
+                <a href="contacts.html" class="nav-link active">Контакты</a>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <a href="index.html">Главная</a> |
-        <a href="about.html">О себе</a> |
-        <a href="portfolio.html">Портфолио</a> |
-        <a href="contacts.html">Контакты</a>
-    </nav>
-    <main>
-        <p>Связаться со мной можно по электронной почте: egorsorokin924@gmail.com</p>
+
+    <main class="container">
+        <section class="intro">
+            <h2 class="section-title">Как со мной связаться</h2>
+            <div class="intro-content">
+                <p>Если у вас есть вопросы по этому учебному проекту или вы хотите обсудить возможности сотрудничества, напишите мне.</p>
+                
+                <div class="features-grid">
+                    <div class="feature">
+                        <h3>Электронная почта</h3>
+                        <p>egorsorokin924@gmail.com</p>
+                    </div>
+                </div>
+                
+                <p style="margin-top: 2rem;">Этот проект является частью лабораторной работы по изучению веб-технологий и принципов SEO.</p>
+            </div>
+        </section>
     </main>
-    <footer>
-        <p>© 2025 Учебный проект. Все права не защищены.</p>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2025 Учебный проект по Веб-технологиям</p>
+        </div>
     </footer>
 </body>
 </html>
