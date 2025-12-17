@@ -3,26 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой учебный сайт | Главная</title>
+    <title>Учебный проект по Веб-технологиям и SEO</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Мой учебный проект по Веб-технологиям</h1>
-        <p>Сайт создан в рамках лабораторной работы</p>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="site-title">Учебный проект</h1>
+                <p class="site-subtitle">Исследование принципов работы поисковых систем</p>
+            </div>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link active">Главная</a>
+                <a href="about.html" class="nav-link">Обо мне</a>
+                <a href="portfolio.html" class="nav-link">Портфолио</a>
+                <a href="contacts.html" class="nav-link">Контакты</a>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <a href="index.html">Главная</a> |
-        <a href="about.html">О себе</a> |
-        <a href="portfolio.html">Портфолио</a> |
-        <a href="contacts.html">Контакты</a>
-    </nav>
-    <main>
-        <h2>Добро пожаловать!</h2>
-        <p>Этот сайт создан для изучения принципов работы поисковых систем, настройки robots.txt и sitemap.xml.</p>
+
+    <main class="container">
+        <section class="intro">
+            <h2 class="section-title">Добро пожаловать!</h2>
+            <div class="intro-content">
+                <p>Этот сайт создан в рамках лабораторной работы по изучению веб-технологий и SEO (поисковой оптимизации).</p>
+                <p>Здесь я исследую работу поисковых систем, настраиваю технические файлы <code>robots.txt</code> и <code>sitemap.xml</code>, а также изучаю факторы, влияющие на ранжирование сайтов.</p>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2 class="section-title">Что сделано в проекте</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <h3>1. Анализ сайтов</h3>
+                    <p>Изучены robots.txt и sitemap.xml четырёх реальных сайтов.</p>
+                </div>
+                <div class="feature">
+                    <h3>2. Создание проекта</h3>
+                    <p>Разработан этот сайт из 4 страниц с адаптивным дизайном.</p>
+                </div>
+                <div class="feature">
+                    <h3>3. Настройка SEO</h3>
+                    <p>Добавлены robots.txt, sitemap.xml и мета-теги для поисковиков.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="quick-links">
+            <h2 class="section-title">Быстрые ссылки</h2>
+            <div class="links">
+                <a href="robots.txt" class="btn" target="_blank">Посмотреть robots.txt</a>
+                <a href="sitemap.xml" class="btn btn-secondary" target="_blank">Посмотреть sitemap.xml</a>
+                <a href="portfolio.html" class="btn">Мои работы</a>
+            </div>
+        </section>
     </main>
-    <footer>
-        <p>© 2025 Учебный проект. Все права не защищены.</p>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2025 Учебный проект по Веб-технологиям</p>
+            <p>Сайт размещён на GitHub Pages</p>
+        </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
