@@ -3,24 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой учебный сайт | Портфолио</title>
+    <title>Портфолио | Мои учебные проекты по веб-разработке</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Портфолио</h1>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="site-title">Портфолио</h1>
+                <p class="site-subtitle">Мои учебные проекты</p>
+            </div>
+            <nav class="main-nav">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="about.html" class="nav-link">Обо мне</a>
+                <a href="portfolio.html" class="nav-link active">Портфолио</a>
+                <a href="contacts.html" class="nav-link">Контакты</a>
+            </nav>
+        </div>
     </header>
-    <nav>
-        <a href="index.html">Главная</a> |
-        <a href="about.html">О себе</a> |
-        <a href="portfolio.html">Портфолио</a> |
-        <a href="contacts.html">Контакты</a>
-    </nav>
-    <main>
-        <p>Пример моей работы — этот сайт. Здесь я применяю знания о HTML, CSS и SEO.</p>
+
+    <main class="container">
+        <section class="intro">
+            <h2 class="section-title">Мои работы</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <h3>Этот сайт</h3>
+                    <p>Учебный проект по веб-технологиям с акцентом на SEO. Включает настройку robots.txt, sitemap.xml и оптимизацию мета-тегов.</p>
+                </div>
+                <div class="feature">
+                    <h3>Лендинг-визитка</h3>
+                    <p>Простая адаптивная страница-визитка с использованием современных CSS-техник.</p>
+                </div>
+                <div class="feature">
+                    <h3>Интерактивная форма</h3>
+                    <p>Веб-форма с валидацией на JavaScript и адаптивным дизайном.</p>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-        <p>© 2025 Учебный проект. Все права не защищены.</p>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2025 Учебный проект по Веб-технологиям</p>
+        </div>
     </footer>
 </body>
 </html>
