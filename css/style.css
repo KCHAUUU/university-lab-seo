@@ -206,4 +206,13 @@ body {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
     border: 3px solid #4b6cb7;
 }
+    /* Добавьте в конец css/style.css */
+.feature {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+body {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
 }
