@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 3.1 УНИКАЛЬНЫЙ Title (58 символов) -->
     <title>Обо мне: студент, изучающий веб-разработку и SEO-оптимизацию</title>
-    <!-- 3.2 УНИКАЛЬНЫЙ Description (152 символа) -->
     <meta name="description" content="Страница студента, изучающего веб-технологии. Информация о навыках HTML, CSS, JavaScript и проведённом исследовании SEO в лабораторной работе.">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -13,7 +11,6 @@
     <header class="site-header">
         <div class="container">
             <div class="header-content">
-                <!-- 3.3 ЕДИНСТВЕННЫЙ H1 -->
                 <h1 class="site-title">Обо мне: путь в веб-разработку</h1>
                 <p class="site-subtitle">Студент, изучающий веб-технологии и SEO</p>
             </div>
@@ -28,21 +25,25 @@
 
     <main class="container">
         <section class="intro">
-            <!-- 3.3 Заголовок H2 -->
-            <h2 class="section-title">Мой опыт и интересы в IT</h2>
-            <div class="intro-content">
-                <p>Я студент, изучаю веб-технологии.</p>
-                <p>В этой лабораторной работе я исследую, как поисковые системы индексируют сайты.</p>
-                
-                <!-- 3.3 Пример структуры H3 внутри секции H2 -->
-                <h3>Ключевые навыки</h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Основы JavaScript</li>
-                    <li>Работа с Git и GitHub</li>
-                    <li>Основы SEO-оптимизации</li>
-                </ul>
+            <div class="about-content-wrapper">
+                <div class="about-text">
+                    <h2 class="section-title">Мой опыт и интересы в IT</h2>
+                    <p>Я студент, изучаю веб-технологии.</p>
+                    <p>В этой лабораторной работе я исследую, как поисковые системы индексируют сайты.</p>
+                    
+                    <h3>Ключевые навыки</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Основы JavaScript</li>
+                        <li>Работа с Git и GitHub</li>
+                        <li>Основы SEO-оптимизации</li>
+                    </ul>
+                </div>
+                <div class="about-photo">
+                    <!-- 3.4 Личное фото с атрибутом alt для SEO и доступности -->
+                    <img src="images/es.jpg" alt="Фотография автора сайта, студента Егора Сорокина" class="profile-photo">
+                </div>
             </div>
         </section>
     </main>
