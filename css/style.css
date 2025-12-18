@@ -174,4 +174,36 @@ body {
     .btn {
         text-align: center;
     }
+    /* Стили для страницы "Обо мне" с фото */
+.about-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .about-content-wrapper {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-photo {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    border: 3px solid #4b6cb7;
+}
 }
